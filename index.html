@@ -3,20 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Website</title>
+    <title>Good Looking Website</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to My Simple Website</h1>
+        <nav>
+            <div class="logo">MyWebsite</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-        <p>This is a simple website using HTML, CSS, and JavaScript.</p>
-        <button id="alertButton">Click me</button>
-    </main>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Good Looking Website</h1>
+            <p>Creating beautiful static websites with HTML, CSS, and JavaScript.</p>
+            <button onclick="scrollToSection('about')">Learn More</button>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>We are a team of passionate web developers creating beautiful and functional websites.</p>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Our Services</h2>
+        <div class="service-card">
+            <h3>Web Design</h3>
+            <p>Creating visually appealing and user-friendly designs.</p>
+        </div>
+        <div class="service-card">
+            <h3>Development</h3>
+            <p>Building responsive and high-performance websites.</p>
+        </div>
+        <div class="service-card">
+            <h3>SEO Optimization</h3>
+            <p>Improving website visibility on search engines.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us for your web development needs.</p>
+    </section>
+
     <footer>
-        <p>&copy; 2024 My Simple Website</p>
+        <p>&copy; 2024 MyWebsite. All rights reserved.</p>
     </footer>
+
     <script src="scripts/script.js"></script>
 </body>
 </html>
