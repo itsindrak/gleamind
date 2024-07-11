@@ -35,7 +35,6 @@ header nav {
 
 .logo img {
     height: 50px;
-	border: none;
 }
 
 .nav-links {
@@ -64,7 +63,6 @@ header nav {
     text-align: center;
     color: #fff;
     padding: 0 2rem;
-	border: none;
     margin-top: 70px; /* Adjust for fixed header */
 }
 
