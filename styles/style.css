@@ -73,11 +73,17 @@ header nav {
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+	justify-content: left;
+    align-items: left;
+    text-align: left;
 }
 
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
+	justify-content: left;
+    align-items: left;
+    text-align: left;
 }
 
 .hero button {
@@ -87,6 +93,9 @@ header nav {
     color: #fff;
     font-size: 1rem;
     cursor: pointer;
+	justify-content: left;
+    align-items: left;
+    text-align: left;
 }
 
 .hero button:hover {
