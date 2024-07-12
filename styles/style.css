@@ -130,18 +130,18 @@ header nav {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: left;
-    color: #333;
+    color: #fff;
 }
 
 .service-card h3 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
-    color: #333;
+    color: #fff;
 }
 
 .service-card p {
     font-size: 1rem;
-    color: #666;
+    color: #fff;
 }
 
 /* Contact Form */
