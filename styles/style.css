@@ -33,40 +33,23 @@ header nav {
     padding: 0 2rem;
 }
 
-/* Ensure the logo fits well within the navbar */
 .logo img {
-    height: 60px;  /* Adjust this value to increase or decrease the logo size */
-    width: auto;  /* Keeps the aspect ratio intact */
-}
-
-/* Style the navbar to center content and provide padding */
-.navbar {
-    display: flex;
-    align-items: center;  /* Aligns items vertically in the center */
-    justify-content: space-between;  /* Spreads out the logo and nav-links */
-    padding: 10px 20px;  /* Adjust padding as needed */
-    background-color: #333;
-    color: white;
+    height: 150px;
 }
 
 .nav-links {
     list-style: none;
 }
 
-/* Additional styling for navigation links */
 .nav-links li {
-    display: inline-block;
-    margin-left: 20px;
+    display: inline;
+    margin-left: 1rem;
 }
 
 .nav-links a {
-    color: white;
+    color: #fff;
     text-decoration: none;
-    font-size: 16px;
-}
-
-.nav-links a:hover {
-    text-decoration: underline;  /* Adds a simple hover effect */
+    font-size: 1rem;
 }
 
 /* Hero Section */
